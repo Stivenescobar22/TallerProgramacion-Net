@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A687AE3-CC6B-44EE-82F2-DE8CAC18A551}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Taller1_ProgramacionNetEjercicios</RootNamespace>
+    <AssemblyName>Taller1_ProgramacionNetEjercicios</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ejercicio1_Ind_MasaCorporal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio1_Ind_MasaCorporal.Designer.cs">
+      <DependentUpon>Ejercicio1_Ind_MasaCorporal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio2_TarifasLlamadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio2_TarifasLlamadas.Designer.cs">
+      <DependentUpon>Ejercicio2_TarifasLlamadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio3_NotasEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio3_NotasEstudiante.Designer.cs">
+      <DependentUpon>Ejercicio3_NotasEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio4_VolumenCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio4_VolumenCaja.Designer.cs">
+      <DependentUpon>Ejercicio4_VolumenCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio5_RaizCuadrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio5_RaizCuadrada.Designer.cs">
+      <DependentUpon>Ejercicio5_RaizCuadrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio6_yearEdad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio6_yearEdad.Designer.cs">
+      <DependentUpon>Ejercicio6_yearEdad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio7_ValorProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio7_ValorProducto.Designer.cs">
+      <DependentUpon>Ejercicio7_ValorProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio8_TrianguloRectangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio8_TrianguloRectangulo.Designer.cs">
+      <DependentUpon>Ejercicio8_TrianguloRectangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio9_MostrarEdad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio9_MostrarEdad.Designer.cs">
+      <DependentUpon>Ejercicio9_MostrarEdad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndiceMasaCorporal.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MosrarEdad.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="PromedioNotas.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebaTriangulo.cs" />
+    <Compile Include="RaizCu.cs" />
+    <Compile Include="Tarifas.cs" />
+    <Compile Include="Validartxt.cs" />
+    <Compile Include="Valor.cs" />
+    <Compile Include="VolumenCa.cs" />
+    <Compile Include="Year.cs" />
+    <EmbeddedResource Include="Ejercicio1_Ind_MasaCorporal.resx">
+      <DependentUpon>Ejercicio1_Ind_MasaCorporal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio2_TarifasLlamadas.resx">
+      <DependentUpon>Ejercicio2_TarifasLlamadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio3_NotasEstudiante.resx">
+      <DependentUpon>Ejercicio3_NotasEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio4_VolumenCaja.resx">
+      <DependentUpon>Ejercicio4_VolumenCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio5_RaizCuadrada.resx">
+      <DependentUpon>Ejercicio5_RaizCuadrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio6_yearEdad.resx">
+      <DependentUpon>Ejercicio6_yearEdad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio7_ValorProducto.resx">
+      <DependentUpon>Ejercicio7_ValorProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio8_TrianguloRectangulo.resx">
+      <DependentUpon>Ejercicio8_TrianguloRectangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio9_MostrarEdad.resx">
+      <DependentUpon>Ejercicio9_MostrarEdad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
